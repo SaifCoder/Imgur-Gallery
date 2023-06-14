@@ -33,15 +33,6 @@ class ApiManager {
 
     private enum RestfulApiSubpath {
         case getTopImageForWeek
-
-
-//    var getUrlSubpath : String {
-//        get {
-//            switch self {
-//            case .getTopImageForWeek: return "3/gallery/search/top/week/"
-//            }
-//        }
-//    }
     }
 
     func getTopImagesOfWeek(text:String, completion: @escaping ([ImageData]?)->Void ) {
