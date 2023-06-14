@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3A92AA4B2A3A1614003772E8 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A92AA4A2A3A1614003772E8 /* ImageCollectionViewCell.xib */; };
+		3A92AA4E2A3A3263003772E8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A92AA4D2A3A3263003772E8 /* ApiManager.swift */; };
+		3A92AA512A3A37AF003772E8 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A92AA502A3A37AF003772E8 /* ImageDataModel.swift */; };
 		3A9F66B12A3A1329005EEDBF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F66AF2A3A1329005EEDBF /* ImageCollectionViewCell.swift */; };
 		3AF765982A39C6E800DBFF99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF765972A39C6E800DBFF99 /* AppDelegate.swift */; };
 		3AF7659A2A39C6E800DBFF99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF765992A39C6E800DBFF99 /* SceneDelegate.swift */; };
@@ -44,6 +46,8 @@
 		1FE66C5015009117BCD62485 /* Pods-Imgur-Gallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imgur-Gallery.debug.xcconfig"; path = "Target Support Files/Pods-Imgur-Gallery/Pods-Imgur-Gallery.debug.xcconfig"; sourceTree = "<group>"; };
 		28BDC535B6967C76B49A4B48 /* Pods-Imgur-Gallery-Imgur-GalleryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imgur-Gallery-Imgur-GalleryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Imgur-Gallery-Imgur-GalleryUITests/Pods-Imgur-Gallery-Imgur-GalleryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A92AA4A2A3A1614003772E8 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		3A92AA4D2A3A3263003772E8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		3A92AA502A3A37AF003772E8 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 		3A9F66AF2A3A1329005EEDBF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		3AF765942A39C6E800DBFF99 /* Imgur-Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imgur-Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF765972A39C6E800DBFF99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A92AA4C2A3A3232003772E8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3A92AA4F2A3A3789003772E8 /* Model */,
+				3A92AA4D2A3A3263003772E8 /* ApiManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3A92AA4F2A3A3789003772E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A92AA502A3A37AF003772E8 /* ImageDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3A9F66A72A3A127E005EEDBF /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +159,7 @@
 		3AF765962A39C6E800DBFF99 /* Imgur-Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				3A92AA4C2A3A3232003772E8 /* Network */,
 				3A9F66A72A3A127E005EEDBF /* UI */,
 				3AF765972A39C6E800DBFF99 /* AppDelegate.swift */,
 				3AF765992A39C6E800DBFF99 /* SceneDelegate.swift */,
@@ -430,7 +452,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9F66B12A3A1329005EEDBF /* ImageCollectionViewCell.swift in Sources */,
+				3A92AA512A3A37AF003772E8 /* ImageDataModel.swift in Sources */,
 				3AF7659C2A39C6E800DBFF99 /* HomeViewController.swift in Sources */,
+				3A92AA4E2A3A3263003772E8 /* ApiManager.swift in Sources */,
 				3AF765982A39C6E800DBFF99 /* AppDelegate.swift in Sources */,
 				3AF7659A2A39C6E800DBFF99 /* SceneDelegate.swift in Sources */,
 			);
