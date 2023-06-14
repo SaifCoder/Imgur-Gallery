@@ -10,7 +10,26 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let apimanager = ApiManager()
+    static var realDelegate: AppDelegate?
+    internal class var instance: AppDelegate {
+        get {
 
+            if Thread.isMainThread{
+                    return UIApplication.shared.delegate as! AppDelegate;
+                }
+                let dg = DispatchGroup();
+                dg.enter()
+                DispatchQueue.main.async{
+                    realDelegate = UIApplication.shared.delegate as? AppDelegate;
+                    dg.leave();
+                }
+                dg.wait();
+                return realDelegate!;
+
+//            return UIApplication.shared.delegate as! AppDelegate
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

@@ -16,22 +16,21 @@ class HomeViewController: UIViewController {
     var isListView = false
     let apiManager = ApiManager()
     var imageData: [ImageData]?
+    var imageService: ImageService?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        navigationItem.titleView = searchBarView
-        self.collectionView.register(UINib(nibName: "ImageCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "ImageCollectionViewCell")
-        apiManager.getTopImagesOfWeek(text: "wallpaper") { data in
-            DispatchQueue.main.async {
-                if let result = data {
-                    self.imageData = result
-                    self.collectionView.reloadData()
-                }
-            }
-        }
+        setupInitialView()
     }
 
+
+    func setupInitialView() {
+        imageService = ImageService(delegate: self)
+        navigationItem.titleView = searchBarView
+        self.collectionView.register(UINib(nibName: "ImageCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "ImageCollectionViewCell")
+        self.collectionView.setEmptyMessage("Search image and we will show the results")
+    }
 
     @IBAction func toggleButtonAction(_ sender: Any) {
         if isListView {
@@ -41,6 +40,7 @@ class HomeViewController: UIViewController {
             isListView = true
             toggleViewButton.image = UIImage(imageLiteralResourceName: "list")
         }
+        collectionView.reloadData()
     }
 }
 
@@ -61,7 +61,41 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        CGSize(width: (collectionView.frame.size.width/2 - 4), height: 250)
+        if isListView {
+            return CGSize(width: (collectionView.frame.size.width - Constants.collectionViewPadding), height: Constants.collectionViewCellHeight)
+        } else {
+            return CGSize(width: (collectionView.frame.size.width/2 - Constants.collectionViewPadding), height: Constants.collectionViewCellHeight)
+        }
+
+    }
+}
+
+extension HomeViewController: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.imageData?.removeAll()
+        self.collectionView.reloadData()
+        self.collectionView.setEmptyMessage("Searching..")
+        searchBar.resignFirstResponder()
+        guard let text = self.searchBarView.text else { return }
+        imageService?.getTopImagesOfWeek(text: text)
+    }
+}
+
+extension HomeViewController: ImageServiceDelegate {
+    func getTopImagesOfWeek(data: [ImageData]?) {
+        DispatchQueue.main.async {
+            self.imageData = data
+            self.collectionView.reloadData()
+            self.collectionView.restore()
+        }
+    }
+
+    func didFailToFetchResult() {
+        DispatchQueue.main.async {
+            self.imageData?.removeAll()
+            self.collectionView.reloadData()
+            self.collectionView.setEmptyMessage("No results found!")
+        }
     }
 }
 

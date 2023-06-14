@@ -21,20 +21,23 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21/10/2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltl-Fe-FQh">
-                        <rect key="frame" x="8" y="8" width="54" height="12"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <rect key="frame" x="0.0" y="8" width="63" height="13.333333333333336"/>
+                        <color key="backgroundColor" red="0.85573474924007409" green="0.90694814920425415" blue="0.85267227906306331" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 / 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1q-hL-Tc8">
-                        <rect key="frame" x="154" y="8" width="21" height="12"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <rect key="frame" x="155.33333333333334" y="8" width="23.666666666666657" height="13.333333333333336"/>
+                        <color key="backgroundColor" red="0.85490196078431369" green="0.90588235294117647" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image title goes here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWl-D7-Zsm">
-                        <rect key="frame" x="8" y="172" width="167" height="12"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <rect key="frame" x="0.0" y="175" width="183" height="17"/>
+                        <color key="backgroundColor" red="0.85490196078431369" green="0.90588235294117647" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -43,15 +46,15 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
                 <constraint firstItem="w1q-hL-Tc8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="1O1-3z-1YB"/>
-                <constraint firstItem="KWl-D7-Zsm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="8XK-KB-J3S"/>
+                <constraint firstItem="KWl-D7-Zsm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8XK-KB-J3S"/>
                 <constraint firstAttribute="bottom" secondItem="01c-wd-mhO" secondAttribute="bottom" id="9MW-Cp-4Ro"/>
-                <constraint firstAttribute="trailing" secondItem="KWl-D7-Zsm" secondAttribute="trailing" constant="8" id="Om4-SN-MAH"/>
+                <constraint firstAttribute="trailing" secondItem="KWl-D7-Zsm" secondAttribute="trailing" id="Om4-SN-MAH"/>
                 <constraint firstItem="01c-wd-mhO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QGU-I2-3Y0"/>
-                <constraint firstItem="ltl-Fe-FQh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="SfB-49-bVf"/>
+                <constraint firstItem="ltl-Fe-FQh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="SfB-49-bVf"/>
                 <constraint firstAttribute="trailing" secondItem="01c-wd-mhO" secondAttribute="trailing" id="Sot-2O-GIo"/>
                 <constraint firstItem="01c-wd-mhO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Uch-yV-ehK"/>
-                <constraint firstAttribute="bottom" secondItem="KWl-D7-Zsm" secondAttribute="bottom" constant="8" id="dwY-3L-OMI"/>
-                <constraint firstAttribute="trailing" secondItem="w1q-hL-Tc8" secondAttribute="trailing" constant="8" id="wvN-pB-POZ"/>
+                <constraint firstAttribute="bottom" secondItem="KWl-D7-Zsm" secondAttribute="bottom" id="dwY-3L-OMI"/>
+                <constraint firstAttribute="trailing" secondItem="w1q-hL-Tc8" secondAttribute="trailing" constant="4" id="wvN-pB-POZ"/>
                 <constraint firstItem="ltl-Fe-FQh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="y3u-hV-9Bl"/>
             </constraints>
             <size key="customSize" width="183" height="192"/>

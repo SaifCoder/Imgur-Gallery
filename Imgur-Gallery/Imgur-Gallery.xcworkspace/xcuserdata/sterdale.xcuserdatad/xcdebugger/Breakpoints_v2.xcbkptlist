@@ -7,102 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BB1880E8-4C0F-46E5-ADCD-E966107E08A9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Imgur-Gallery/UI/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BB1880E8-4C0F-46E5-ADCD-E966107E08A9 - b502a0f15d339630"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;Imgur_Gallery.ImageData&gt;&gt;) -&gt; () in Imgur_Gallery.HomeViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "Imgur-Gallery"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sterdale/Documents/Work/Imgur-Gallery/Imgur-Gallery/Imgur-Gallery/UI/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "82">
-               </Location>
-               <Location
-                  uuid = "BB1880E8-4C0F-46E5-ADCD-E966107E08A9 - b502a0f15d339630"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;Imgur_Gallery.ImageData&gt;&gt;) -&gt; () in Imgur_Gallery.HomeViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "Imgur-Gallery"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sterdale/Documents/Work/Imgur-Gallery/Imgur-Gallery/Imgur-Gallery/UI/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "107">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A5EAEC4-36CA-4F7F-AAA5-A99D6B941BEF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Imgur-Gallery/UI/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1A5EAEC4-36CA-4F7F-AAA5-A99D6B941BEF - 2819a9c38c2b95e2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Imgur_Gallery.HomeViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "Imgur-Gallery"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sterdale/Documents/Work/Imgur-Gallery/Imgur-Gallery/Imgur-Gallery/UI/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "635">
-               </Location>
-               <Location
-                  uuid = "1A5EAEC4-36CA-4F7F-AAA5-A99D6B941BEF - 9f889c29612e3da1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Imgur_Gallery.ImageData&gt;&gt;) -&gt; () in Imgur_Gallery.HomeViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "Imgur-Gallery"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sterdale/Documents/Work/Imgur-Gallery/Imgur-Gallery/Imgur-Gallery/UI/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "180">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2061D69F-98C9-406D-9CC6-8ABAE67F2019"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -231,33 +135,129 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0ED6A483-1788-47F8-9B69-0ACC183FDBD2"
+            uuid = "5EB90ABB-6D47-40F0-ABBE-1F69D6AF7C44"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Imgur-Gallery/UI/HomeViewController.swift"
+            filePath = "Imgur-Gallery/Network/Service/ImageService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "collectionView(_:cellForItemAt:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getTopImagesOfWeek(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5EB90ABB-6D47-40F0-ABBE-1F69D6AF7C44 - 2bc339673fa0853c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Imgur_Gallery.ImageService.getTopImagesOfWeek(text: Swift.String) -&gt; ()"
+                  moduleName = "Imgur-Gallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sterdale/Documents/Work/Imgur-Gallery/Imgur-Gallery/Imgur-Gallery/Network/Service/ImageService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "5EB90ABB-6D47-40F0-ABBE-1F69D6AF7C44 - 61f7befc76dd6bc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Imgur_Gallery.ImageData&gt;&gt;) -&gt; () in Imgur_Gallery.ImageService.getTopImagesOfWeek(text: Swift.String) -&gt; ()"
+                  moduleName = "Imgur-Gallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sterdale/Documents/Work/Imgur-Gallery/Imgur-Gallery/Imgur-Gallery/Network/Service/ImageService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62226BC4-A606-4D23-9662-721F9749D5AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Imgur-Gallery/Network/Service/ImageService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getTopImagesOfWeek(text:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B139C24E-386D-4862-AAEB-434BB0969EE6"
+            uuid = "D3AA2644-EF13-4B60-8F14-09E6816C6A35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Imgur-Gallery/Network/Service/ImageService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "imageData"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82D531A6-21AD-4F72-90D2-687D7EEE2916"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Imgur-Gallery/UI/Cells/ImageCollectionViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "setData(data:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "82D531A6-21AD-4F72-90D2-687D7EEE2916 - d13a66ccac033a94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Imgur_Gallery.ImageCollectionViewCell.setData(data: Swift.Optional&lt;Imgur_Gallery.ImageData&gt;) -&gt; ()"
+                  moduleName = "Imgur-Gallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sterdale/Documents/Work/Imgur-Gallery/Imgur-Gallery/Imgur-Gallery/UI/Cells/ImageCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1512">
+               </Location>
+               <Location
+                  uuid = "82D531A6-21AD-4F72-90D2-687D7EEE2916 - d13a66ccac033a94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Imgur_Gallery.ImageCollectionViewCell.setData(data: Swift.Optional&lt;Imgur_Gallery.ImageData&gt;) -&gt; ()"
+                  moduleName = "Imgur-Gallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sterdale/Documents/Work/Imgur-Gallery/Imgur-Gallery/Imgur-Gallery/UI/Cells/ImageCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1910">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
