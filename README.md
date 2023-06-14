@@ -29,11 +29,13 @@ Features:
 
 #### Screenshots
 
-![List!]([Screenshots/ListView.png](https://user-images.githubusercontent.com/41318856/245942699-141b6d00-68e1-425e-b2ec-99b009af0736.png))
+![Video!](https://user-images.githubusercontent.com/41318856/245943809-4756be87-c274-47b6-bcb8-b3e756e47067.mov)
+
+![List!](https://user-images.githubusercontent.com/41318856/245942699-141b6d00-68e1-425e-b2ec-99b009af0736.png)
 
 
 
-![Grid!](Screenshots/GridView.png)
+![Grid!](https://user-images.githubusercontent.com/41318856/245942880-bd31a3e0-e13b-4595-8e55-d3cc312455b3.png)
 
 
 
