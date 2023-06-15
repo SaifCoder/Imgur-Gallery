@@ -70,7 +70,7 @@ class ApiManager {
         }
         req.setValue(userAgent, forHTTPHeaderField: "User-Agent")
         req.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        req.setValue("Client-ID 07130ddf7d81427", forHTTPHeaderField: "Authorization")
+        req.setValue(Constants.ClientID, forHTTPHeaderField: "Authorization")
 
 
             URLSession.shared.dataTask(with: req) { (data, res, err) in
